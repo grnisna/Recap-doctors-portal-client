@@ -10,12 +10,12 @@ const HomeContact = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">
           </div>
-          <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-            <div className="card-body">
+          <div className="card flex-shrink-0  shadow-2xl bg-base-100">
+            <div className="card-body lg:p-10 p-2">
               <div className="form-control">
                 <div className="text-center lg:text-left">
                   <h1 className=" font-bold text-primary text-center">Contact Us</h1>
-                  <p className="py-6 text-3xl text-center">Stay Connected With Us</p>
+                  <p className="lg:py-6 lg:text-3xl text-xl text-center">Stay Connected With Us</p>
                 </div>
                 <label className="label">
                   <span className="label-text">Email</span>

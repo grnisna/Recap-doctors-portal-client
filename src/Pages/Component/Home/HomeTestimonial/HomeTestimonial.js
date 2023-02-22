@@ -40,10 +40,10 @@ const HomeTestimonial = () => {
     return (
         <div className='my-12' >
 
-            <div className='flex justify-between items-center'>
+            <div className='flex justify-between items-center lg:px-0 px-5'>
                 <div>
-                    <h3 className='text-xl text-primary'>Testimonials</h3>
-                    <h2 className='text-4xl'>What Our Patients Says</h2>
+                    <h3 className='lg:text-xl text-primary'>Testimonials</h3>
+                    <h2 className='lg:text-4xl text-xl'>What Our Patients Says</h2>
                 </div>
                 <div>
                     <img src={qoute} className='w-32' alt="" />

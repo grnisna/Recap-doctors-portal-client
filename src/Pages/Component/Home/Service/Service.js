@@ -7,7 +7,7 @@ const Service = ({service}) => {
 
 
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
+    <div className="card  bg-base-100 shadow-xl">
       <figure className="px-10 pt-10">
         <img
           src={image}
@@ -17,7 +17,7 @@ const Service = ({service}) => {
       </figure>
       <div className="card-body items-center text-center">
         <h2 className="card-title">{serviceName}</h2>
-        <p>{description}</p>
+        <p className="text-justify" >{description}</p>
       </div>
     </div>
   );
