@@ -11,7 +11,7 @@ const Service = ({service}) => {
       <figure className="px-10 pt-10">
         <img
           src={image}
-          alt="Shoes"
+          alt="imgh"
           className="rounded-xl"
         />
       </figure>
